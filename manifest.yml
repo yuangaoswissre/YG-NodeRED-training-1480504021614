@@ -1,0 +1,15 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: YG-NodeRED-training
+  host: YG-NodeRED-training
+  disk_quota: 1024M
+  services:
+  - Language Translator-stra
+  - training-dashDB
+  - training-Text to Speech
+  - availability-monitoring-auto
+  - training-Visual Recognition
+  - YG-NodeRED-training-cloudantNoSQLDB
